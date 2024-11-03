@@ -1,63 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="author" content="Harrison Asare" />
-    <meta
-      name="description"
-      content="This is the official website of Harrison Asare, a software engineer."
-    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Harrison Asare</title>
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <p>Harrison</p>
-      <nav>
-        <ol>
-          <li><a class="home-link" href="/">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="/">Contact</a></li>
-        </ol>
-      </nav>
+      <img
+        src="images/photo.jpg"
+        alt="An image of Harrison"
+        width="70"
+        height="70px"
+      />
+      <!-- <a href="#">About</a> -->
     </header>
+
     <main>
-      <div class="hero-container">
-        <div class="hero-image-container">
-          <img
-            class="hero-image"
-            src="images/picture.png"
-            alt="A picture of Harrison."
-          />
-        </div>
-        <div class="hero-text">
+      <section class="about">
+        <div class="about-contact">
+          <p class="work">
+            Software Engineer | IT Support | Internet Safety Advocate
+          </p>
           <h1>
-            Hello friends👋🏾, <br />I'm Harrison.
-            <br />
-            A Front End Developer based in Accra, Ghana.
+            Harrison Asare
+            <span><img src="images/linkedin.png" alt="" width="20px" /></span>
+            <span
+              ><img src="images/social-media.png" alt="" width="20px"
+            /></span>
+            <span><img src="images/email.png" alt="" width="20px" /></span>
           </h1>
-          <a href=""><button>View my projects</button></a>
+
+          <a href="#">harrisonasare.com</a>
         </div>
-      </div>
+        <div class="about-about">
+          <p>
+            Hey there! I'm Harrison Asare, a passionate Front-End Developer with
+            a solid foundation in Information Technology. I'm currently based in
+            Accra, Ghana, and I'm focused on building clean, user-friendly
+            websites and applications. With hands-on experience from internships
+            and a drive for continuous learning, I enjoy solving challenges and
+            improving my skills every day. When I&apos;m not coding, you&apos;ll
+            likely find me exploring ways to make the digital world safer for
+            everyone, working on IT outreach programs, or diving into new tech
+            like AWS and cybersecurity. Let&apos;s connect and create something
+            amazing together!
+          </p>
+        </div>
+        <div class="about-cta">
+          <p class="about-cta-name">Harrison Asare</p>
+          <p class="about-cta-cta">Download Resume</p>
+          <img src="images/download-img.png" alt="" width="20px" />
+        </div>
+      </section>
+
+      <section class="projects"></section>
     </main>
-    <footer>
-      <div class="footer">
-        <p>Made with ❤️ by Harrison Asare.</p>
-        <p>
-          Copyright &copy; Harrison Asare
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
-        </p>
-      </div>
-    </footer>
   </body>
 </html>
